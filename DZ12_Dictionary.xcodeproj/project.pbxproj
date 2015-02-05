@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2408E000C4F26C88C3E8D374 /* MOCK_DATA-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EA15BD6F210F5821CB7F /* MOCK_DATA-3.json */; };
+		2408E018297A3E5F07DE3B69 /* MOCK_DATA-10.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EA1D4E60710AB4570FA8 /* MOCK_DATA-10.json */; };
+		2408E0201D9A9B8E5C9EE641 /* MOCK_DATA-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E1AFCE533AF5F13F6023 /* MOCK_DATA-2.json */; };
+		2408E0B00CEBD1A25053AD58 /* MOCK_DATA-12.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E9CF73FD0F3AAECA4DC2 /* MOCK_DATA-12.json */; };
+		2408E0C68BC07B146DB61615 /* MOCK_DATA-13.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E28D63F2E4A095CC8115 /* MOCK_DATA-13.json */; };
+		2408E1BE6D276632AE38F65E /* BookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E12853C6D407B71E29A3 /* BookInfo.m */; };
+		2408E462C49E281D5F088F66 /* MOCK_DATA-8.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EDE50EC01C6BF6D625F5 /* MOCK_DATA-8.json */; };
+		2408E4750245385E19E4B76F /* MOCK_DATA-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EBB9746681E8DA00DEC4 /* MOCK_DATA-5.json */; };
+		2408E4C7F365A68791BF461E /* MOCK_DATA-9.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E54EB285BB1D89ADD1E6 /* MOCK_DATA-9.json */; };
+		2408E5DF8B1C5680A4D496FF /* TestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E853F1C806D82D9A9809 /* TestUtils.m */; };
+		2408E6A1EAA1DFAC1C56A40F /* MOCK_DATA-16.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E70A7B1E4A8A23C7B3F5 /* MOCK_DATA-16.json */; };
+		2408E7391EBEBFEFDACE2921 /* MOCK_DATA-11.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E9D43B5023B4B441307B /* MOCK_DATA-11.json */; };
+		2408E73C231493955AB89C2B /* MOCK_DATA-18.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E4ABCB653FF0221D9BA5 /* MOCK_DATA-18.json */; };
+		2408E7E67AFD378D3A370573 /* BookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E12853C6D407B71E29A3 /* BookInfo.m */; };
+		2408E9496E57BE71A8837B55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E4652274C30729AC9FFD /* ViewController.m */; };
+		2408E94AD12AAAF7B49E1471 /* MOCK_DATA-6.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E688AB20263FEC693C94 /* MOCK_DATA-6.json */; };
+		2408E94C46A712A113D3F1C3 /* DZ12_DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408EE053BF710B668CBAC27 /* DZ12_DictionaryTests.m */; };
+		2408E96973C6497C37A92A42 /* MOCK_DATA-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EE8EC3CED1710BE9A490 /* MOCK_DATA-15.json */; };
+		2408E9DE9A959182EB9E4B5D /* MOCK_DATA-7.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EEB8AC2CFB08A76920AD /* MOCK_DATA-7.json */; };
+		2408EA06CFB4D9CFBB8974FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2408E1668D3EB414FADC4261 /* Images.xcassets */; };
+		2408EA57FF57596516715EE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2408EE89B2FB833701A479FE /* LaunchScreen.xib */; };
+		2408EACF0AD87871429DF3B6 /* MOCK_DATA-14.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E132C220A3D6DEA2883C /* MOCK_DATA-14.json */; };
+		2408EC03AB2BFC9DA52E7D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2408E6858AC3FCDFA68B28C4 /* Main.storyboard */; };
+		2408EC74E4EA0EC7F8F09012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E86E6E307B745627455B /* main.m */; };
+		2408ED7C088A0E2DF53F2597 /* MOCK_DATA-19.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EAEB9F6A834B692B16CF /* MOCK_DATA-19.json */; };
+		2408EDA6A7E9D4C6775F3BDC /* MOCK_DATA-17.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EC34FE9D2A3D94C07967 /* MOCK_DATA-17.json */; };
+		2408EE3994239472AC3237C9 /* MOCK_DATA-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EDD40EFCA0AC4AE6111B /* MOCK_DATA-4.json */; };
+		2408EE5AAA2AD21318A613A4 /* MOCK_DATA-20.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408EE356D83D6FB67A7DB66 /* MOCK_DATA-20.json */; };
+		2408EEDA58593F06ACEB1E48 /* MOCK_DATA-21.json in Resources */ = {isa = PBXBuildFile; fileRef = 2408E1D0BA30E493F7AAE0F1 /* MOCK_DATA-21.json */; };
+		2408EF7C6B526609ADE41A71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408E6E0D245EE79CCA84401 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2408EFBA1E64AFC1786556AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2408E3650417928B2FCDDB24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2408E57A0EB20A950E545DE4;
+			remoteInfo = DZ12_Dictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2408E0170032B15DA0141B9C /* DZ12_Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZ12_Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2408E08EC1CEB16F99653183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2408E12853C6D407B71E29A3 /* BookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInfo.m; sourceTree = "<group>"; };
+		2408E12D3DD39DDE44FB043E /* BookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInfo.h; sourceTree = "<group>"; };
+		2408E132C220A3D6DEA2883C /* MOCK_DATA-14.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-14.json"; sourceTree = "<group>"; };
+		2408E1668D3EB414FADC4261 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2408E1AFCE533AF5F13F6023 /* MOCK_DATA-2.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-2.json"; sourceTree = "<group>"; };
+		2408E1D0BA30E493F7AAE0F1 /* MOCK_DATA-21.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-21.json"; sourceTree = "<group>"; };
+		2408E28D63F2E4A095CC8115 /* MOCK_DATA-13.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-13.json"; sourceTree = "<group>"; };
+		2408E420A76D356DEA153F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2408E4652274C30729AC9FFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2408E4ABCB653FF0221D9BA5 /* MOCK_DATA-18.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-18.json"; sourceTree = "<group>"; };
+		2408E54EB285BB1D89ADD1E6 /* MOCK_DATA-9.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-9.json"; sourceTree = "<group>"; };
+		2408E602456CCD163D79DC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2408E63ACEC4E25D86678016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2408E688AB20263FEC693C94 /* MOCK_DATA-6.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-6.json"; sourceTree = "<group>"; };
+		2408E6E0D245EE79CCA84401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2408E70A7B1E4A8A23C7B3F5 /* MOCK_DATA-16.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-16.json"; sourceTree = "<group>"; };
+		2408E853F1C806D82D9A9809 /* TestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUtils.m; sourceTree = "<group>"; };
+		2408E86E6E307B745627455B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2408E8F6EF38E7F8950BC80D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2408E9971FD461B770996B08 /* DZ12_DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZ12_DictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2408E9CF73FD0F3AAECA4DC2 /* MOCK_DATA-12.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-12.json"; sourceTree = "<group>"; };
+		2408E9D43B5023B4B441307B /* MOCK_DATA-11.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-11.json"; sourceTree = "<group>"; };
+		2408EA15BD6F210F5821CB7F /* MOCK_DATA-3.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-3.json"; sourceTree = "<group>"; };
+		2408EA1D4E60710AB4570FA8 /* MOCK_DATA-10.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-10.json"; sourceTree = "<group>"; };
+		2408EAEB9F6A834B692B16CF /* MOCK_DATA-19.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-19.json"; sourceTree = "<group>"; };
+		2408EBB9746681E8DA00DEC4 /* MOCK_DATA-5.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-5.json"; sourceTree = "<group>"; };
+		2408EBD9C22B740445CE16E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2408EC34FE9D2A3D94C07967 /* MOCK_DATA-17.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-17.json"; sourceTree = "<group>"; };
+		2408EC73A4B6AD9B1B294E44 /* TestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUtils.h; sourceTree = "<group>"; };
+		2408EDD40EFCA0AC4AE6111B /* MOCK_DATA-4.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-4.json"; sourceTree = "<group>"; };
+		2408EDE50EC01C6BF6D625F5 /* MOCK_DATA-8.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-8.json"; sourceTree = "<group>"; };
+		2408EE053BF710B668CBAC27 /* DZ12_DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZ12_DictionaryTests.m; sourceTree = "<group>"; };
+		2408EE356D83D6FB67A7DB66 /* MOCK_DATA-20.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-20.json"; sourceTree = "<group>"; };
+		2408EE8EC3CED1710BE9A490 /* MOCK_DATA-15.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-15.json"; sourceTree = "<group>"; };
+		2408EEB8AC2CFB08A76920AD /* MOCK_DATA-7.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = "MOCK_DATA-7.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2408EA576BC4D36C827FA256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2408EF3A6959E09EB8C73B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2408E09351E85C35F7908057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2408E08EC1CEB16F99653183 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2408E5D280F6F77245A349C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2408E602456CCD163D79DC42 /* Info.plist */,
+				2408E86E6E307B745627455B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2408E61224E785EC109D999E /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				2408E1AFCE533AF5F13F6023 /* MOCK_DATA-2.json */,
+				2408EA15BD6F210F5821CB7F /* MOCK_DATA-3.json */,
+				2408EDD40EFCA0AC4AE6111B /* MOCK_DATA-4.json */,
+				2408EBB9746681E8DA00DEC4 /* MOCK_DATA-5.json */,
+				2408E688AB20263FEC693C94 /* MOCK_DATA-6.json */,
+				2408EEB8AC2CFB08A76920AD /* MOCK_DATA-7.json */,
+				2408EDE50EC01C6BF6D625F5 /* MOCK_DATA-8.json */,
+				2408E54EB285BB1D89ADD1E6 /* MOCK_DATA-9.json */,
+				2408EA1D4E60710AB4570FA8 /* MOCK_DATA-10.json */,
+				2408E9D43B5023B4B441307B /* MOCK_DATA-11.json */,
+				2408E9CF73FD0F3AAECA4DC2 /* MOCK_DATA-12.json */,
+				2408E28D63F2E4A095CC8115 /* MOCK_DATA-13.json */,
+				2408E132C220A3D6DEA2883C /* MOCK_DATA-14.json */,
+				2408EE8EC3CED1710BE9A490 /* MOCK_DATA-15.json */,
+				2408E70A7B1E4A8A23C7B3F5 /* MOCK_DATA-16.json */,
+				2408EC34FE9D2A3D94C07967 /* MOCK_DATA-17.json */,
+				2408E4ABCB653FF0221D9BA5 /* MOCK_DATA-18.json */,
+				2408EAEB9F6A834B692B16CF /* MOCK_DATA-19.json */,
+				2408EE356D83D6FB67A7DB66 /* MOCK_DATA-20.json */,
+				2408E1D0BA30E493F7AAE0F1 /* MOCK_DATA-21.json */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		2408E70424C22C569CD57DC1 /* DZ12_DictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				2408E09351E85C35F7908057 /* Supporting Files */,
+				2408EE053BF710B668CBAC27 /* DZ12_DictionaryTests.m */,
+				2408E853F1C806D82D9A9809 /* TestUtils.m */,
+				2408EC73A4B6AD9B1B294E44 /* TestUtils.h */,
+				2408E61224E785EC109D999E /* mock */,
+			);
+			path = DZ12_DictionaryTests;
+			sourceTree = "<group>";
+		};
+		2408E7B1F5148DB8A1DAA625 = {
+			isa = PBXGroup;
+			children = (
+				2408EE106536C6BAE877CE94 /* Products */,
+				2408EEB448E32C86375C3CBE /* DZ12_Dictionary */,
+				2408E70424C22C569CD57DC1 /* DZ12_DictionaryTests */,
+			);
+			sourceTree = "<group>";
+		};
+		2408EE106536C6BAE877CE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2408E0170032B15DA0141B9C /* DZ12_Dictionary.app */,
+				2408E9971FD461B770996B08 /* DZ12_DictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2408EEB448E32C86375C3CBE /* DZ12_Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				2408E5D280F6F77245A349C4 /* Supporting Files */,
+				2408E1668D3EB414FADC4261 /* Images.xcassets */,
+				2408EE89B2FB833701A479FE /* LaunchScreen.xib */,
+				2408EBD9C22B740445CE16E2 /* AppDelegate.h */,
+				2408E6E0D245EE79CCA84401 /* AppDelegate.m */,
+				2408E6858AC3FCDFA68B28C4 /* Main.storyboard */,
+				2408E8F6EF38E7F8950BC80D /* ViewController.h */,
+				2408E4652274C30729AC9FFD /* ViewController.m */,
+				2408E12853C6D407B71E29A3 /* BookInfo.m */,
+				2408E12D3DD39DDE44FB043E /* BookInfo.h */,
+			);
+			path = DZ12_Dictionary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2408E57A0EB20A950E545DE4 /* DZ12_Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2408E8A4A58878FCB844E01D /* Build configuration list for PBXNativeTarget "DZ12_Dictionary" */;
+			buildPhases = (
+				2408EAAE05EFF3EAC2C280FD /* Sources */,
+				2408EA576BC4D36C827FA256 /* Frameworks */,
+				2408ECA84D38177AA7FF564B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZ12_Dictionary;
+			productName = DZ12_Dictionary;
+			productReference = 2408E0170032B15DA0141B9C /* DZ12_Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2408E8CE5AEDE3428B9EDB65 /* DZ12_DictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2408EDCA8EA4DA1D7A1AD3F3 /* Build configuration list for PBXNativeTarget "DZ12_DictionaryTests" */;
+			buildPhases = (
+				2408EA9F9F06C2B52819C0CB /* Sources */,
+				2408EF3A6959E09EB8C73B70 /* Frameworks */,
+				2408EF5B8D7BAB2386ACCDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2408E9F384BD13DFFDFC06D4 /* PBXTargetDependency */,
+			);
+			name = DZ12_DictionaryTests;
+			productName = DZ12_DictionaryTests;
+			productReference = 2408E9971FD461B770996B08 /* DZ12_DictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2408E3650417928B2FCDDB24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 2408ED6630B0ED258FCD1B35 /* Build configuration list for PBXProject "DZ12_Dictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2408E7B1F5148DB8A1DAA625;
+			productRefGroup = 2408EE106536C6BAE877CE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2408E57A0EB20A950E545DE4 /* DZ12_Dictionary */,
+				2408E8CE5AEDE3428B9EDB65 /* DZ12_DictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2408ECA84D38177AA7FF564B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2408EA06CFB4D9CFBB8974FC /* Images.xcassets in Resources */,
+				2408EA57FF57596516715EE3 /* LaunchScreen.xib in Resources */,
+				2408EC03AB2BFC9DA52E7D2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2408EF5B8D7BAB2386ACCDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2408E0201D9A9B8E5C9EE641 /* MOCK_DATA-2.json in Resources */,
+				2408E000C4F26C88C3E8D374 /* MOCK_DATA-3.json in Resources */,
+				2408EE3994239472AC3237C9 /* MOCK_DATA-4.json in Resources */,
+				2408E4750245385E19E4B76F /* MOCK_DATA-5.json in Resources */,
+				2408E94AD12AAAF7B49E1471 /* MOCK_DATA-6.json in Resources */,
+				2408E9DE9A959182EB9E4B5D /* MOCK_DATA-7.json in Resources */,
+				2408E462C49E281D5F088F66 /* MOCK_DATA-8.json in Resources */,
+				2408E4C7F365A68791BF461E /* MOCK_DATA-9.json in Resources */,
+				2408E018297A3E5F07DE3B69 /* MOCK_DATA-10.json in Resources */,
+				2408E7391EBEBFEFDACE2921 /* MOCK_DATA-11.json in Resources */,
+				2408E0B00CEBD1A25053AD58 /* MOCK_DATA-12.json in Resources */,
+				2408E0C68BC07B146DB61615 /* MOCK_DATA-13.json in Resources */,
+				2408EACF0AD87871429DF3B6 /* MOCK_DATA-14.json in Resources */,
+				2408E96973C6497C37A92A42 /* MOCK_DATA-15.json in Resources */,
+				2408E6A1EAA1DFAC1C56A40F /* MOCK_DATA-16.json in Resources */,
+				2408EDA6A7E9D4C6775F3BDC /* MOCK_DATA-17.json in Resources */,
+				2408E73C231493955AB89C2B /* MOCK_DATA-18.json in Resources */,
+				2408ED7C088A0E2DF53F2597 /* MOCK_DATA-19.json in Resources */,
+				2408EE5AAA2AD21318A613A4 /* MOCK_DATA-20.json in Resources */,
+				2408EEDA58593F06ACEB1E48 /* MOCK_DATA-21.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2408EA9F9F06C2B52819C0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2408E94C46A712A113D3F1C3 /* DZ12_DictionaryTests.m in Sources */,
+				2408E5DF8B1C5680A4D496FF /* TestUtils.m in Sources */,
+				2408E1BE6D276632AE38F65E /* BookInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2408EAAE05EFF3EAC2C280FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2408EC74E4EA0EC7F8F09012 /* main.m in Sources */,
+				2408EF7C6B526609ADE41A71 /* AppDelegate.m in Sources */,
+				2408E9496E57BE71A8837B55 /* ViewController.m in Sources */,
+				2408E7E67AFD378D3A370573 /* BookInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2408E9F384BD13DFFDFC06D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2408E57A0EB20A950E545DE4 /* DZ12_Dictionary */;
+			targetProxy = 2408EFBA1E64AFC1786556AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2408E6858AC3FCDFA68B28C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2408E63ACEC4E25D86678016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2408EE89B2FB833701A479FE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2408E420A76D356DEA153F0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2408E459790DC9A2D08D7A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DZ12_Dictionary.app/DZ12_Dictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DZ12_DictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		2408E872D7D3F78AFACA36E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2408E971442A36C17B381FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZ12_Dictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2408EACF41D8DB2E8B83CAE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DZ12_Dictionary.app/DZ12_Dictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DZ12_DictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2408EE6C149262E5088F5278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZ12_Dictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2408EFD30DA1F1462F925128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2408E8A4A58878FCB844E01D /* Build configuration list for PBXNativeTarget "DZ12_Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2408EE6C149262E5088F5278 /* Debug */,
+				2408E971442A36C17B381FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2408ED6630B0ED258FCD1B35 /* Build configuration list for PBXProject "DZ12_Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2408EFD30DA1F1462F925128 /* Debug */,
+				2408E872D7D3F78AFACA36E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2408EDCA8EA4DA1D7A1AD3F3 /* Build configuration list for PBXNativeTarget "DZ12_DictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2408EACF41D8DB2E8B83CAE8 /* Debug */,
+				2408E459790DC9A2D08D7A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2408E3650417928B2FCDDB24 /* Project object */;
+}
